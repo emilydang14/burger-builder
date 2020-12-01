@@ -1,0 +1,47 @@
+.BuilderController {
+  margin: auto;
+  padding: 10px;
+  width: 100%;
+  background-color: coral;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.BuilderController p {
+  font-weight: bold;
+  color: blue;
+  font-size: 20px;
+}
+
+.orderButton {
+  display: block;
+  font: inherit;
+  padding: 10px;
+  margin: auto;
+  width: fit-content;
+  height: 50px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  transition: ease 200ms;
+  color: lightcoral;
+  font-weight: 600;
+  background-color: black;
+}
+
+.orderButton:hover {
+  opacity: 60%;
+  color: white;
+}
+
+.orderButton:active {
+  transform: translateY(3px);
+}
+
+.orderButton:disabled {
+  background-color: lightgray;
+  cursor: not-allowed;
+  color: grey;
+}
