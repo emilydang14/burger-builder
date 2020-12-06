@@ -26,8 +26,9 @@
     display: none;
   }
 }
+
 @media (min-width: 499px) {
   .mobileOnly {
     display: none;
   }
-} ;
+}

@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Toolbar.module.css";
+import classes from "./Toolbar.module.css";
 import Logo from "../../UI/Logo/Logo";
 import MenuIcon from "../../../assets/images/menu.svg";
 import BurgerIcon from "../../../assets/images/burger-logo.png";
@@ -7,18 +7,18 @@ import NavItems from "../NavigationItems/NavigationItems";
 
 const Toolbar = (props) => {
   return (
-    <header className={styles.Toolbar}>
+    <header className={classes.Toolbar}>
       <div
-        className={`${styles.mobileOnly} ${styles.Logo}`}
+        className={`${classes.mobileOnly} ${classes.Logo}`}
         onClick={props.toggleMenu}
       >
         <Logo src={MenuIcon} />
       </div>
-      <div className={styles.Logo}>
+      <div className={classes.Logo}>
         <Logo src={BurgerIcon} />
       </div>
 
-      <nav className={styles.DesktopOnly}>
+      <nav className={classes.DesktopOnly}>
         <NavItems isAuth={props.isAuth} />
       </nav>
     </header>

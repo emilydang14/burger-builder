@@ -1,16 +1,15 @@
 import React from "react";
-import styles from "./ControllerElement.module.css";
+import classes from "./ControllerElement.module.css";
 
 const ControllerElement = (props) => {
   return (
-    <div className={styles.ControllerElement}>
+    <div className={classes.ControllerElement}>
       <table>
         <tbody>
           <tr>
             <th>
               {props.ingredientName}
               <span>
-                {" "}
                 (max ingredient quanity : {props.maxIngredientQuantity})
               </span>
             </th>

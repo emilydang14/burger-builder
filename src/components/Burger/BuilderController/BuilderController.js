@@ -1,6 +1,6 @@
 import React from "react";
 import ControllerElement from "./ControllerElement/ControllerElement";
-import styles from "./BuilderController.module.css";
+import classes from "./BuilderController.module.css";
 
 const controlElements = [
   { elementName: "Salad", type: "salad" },
@@ -11,7 +11,7 @@ const controlElements = [
 
 const BuilderController = (props) => {
   return (
-    <div className={styles.BuilderController}>
+    <div className={classes.BuilderController}>
       {controlElements.map((controlElement) => {
         return (
           <ControllerElement
@@ -29,7 +29,7 @@ const BuilderController = (props) => {
       })}
       <p>Total Price: {props.totalPrice}€</p>
       <button
-        className={styles.orderButton}
+        className={classes.orderButton}
         onClick={props.orderButtonOnClick}
         disabled={!props.purchasable}
       >

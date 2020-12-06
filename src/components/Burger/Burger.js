@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Burger.module.css";
+import classes from "./Burger.module.css";
 import BurgerIngredient from "./BurgerIngredient/BurgerIngredient";
 
 const Burger = (props) => {
@@ -14,7 +14,7 @@ const Burger = (props) => {
     }, []);
 
   return (
-    <div className={styles.Burger}>
+    <div className={classes.Burger}>
       <BurgerIngredient ingredientType="bread-top" />
       {chosenIngredients.length === 0 ? (
         <p>Select your ingredients</p>

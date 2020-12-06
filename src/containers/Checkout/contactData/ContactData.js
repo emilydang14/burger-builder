@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import axios from "../../../axios-orders";
 import { connect } from "react-redux";
 import Button from "../../../components/UI/Button/Button";
-import styles from "./ContactData.module.css";
+import classes from "./ContactData.module.css";
 import Spinner from "../../../components/UI/Spinner/Spinner";
 import Input from "../../../components/UI/Input/Input";
 import withErrorHandler from "../../../hoc/withErrorHandler";
@@ -167,7 +167,7 @@ class ContactData extends Component {
       form = <Spinner />;
     }
     return (
-      <div className={styles.ContactData}>
+      <div className={classes.ContactData}>
         <h4>Enter your contact data</h4>
         {form}
       </div>

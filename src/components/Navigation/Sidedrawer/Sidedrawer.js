@@ -1,10 +1,9 @@
 import React, { useEffect } from "react";
-import styles from "./Sidedrawer.module.css";
+import classes from "./Sidedrawer.module.css";
 import Logo from "../../UI/Logo/Logo";
 import NavItems from "../NavigationItems/NavigationItems";
 import Aux from "../../../hoc/Aux";
 import Backdrop from "../../UI/Backdrop/Backdrop";
-import classes from "./Sidedrawer.module.css";
 import BurgerIcon from "../../../assets/images/burger-logo.png";
 
 const Sidedrawer = (props) => {
@@ -28,7 +27,7 @@ const Sidedrawer = (props) => {
     <Aux>
       <Backdrop backdropClicked={props.closed} show={props.open} />
       <div className={attachedClasses.join(" ")} onClick={props.closed}>
-        <div className={styles.Logo}>
+        <div className={classes.Logo}>
           <Logo src={BurgerIcon} />
         </div>
         <nav>

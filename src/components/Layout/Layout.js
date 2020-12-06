@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Aux from "../../hoc/Aux";
-import styles from "./Layout.module.css";
+import classes from "./Layout.module.css";
 import Toolbar from "../Navigation/Toolbar/Toolbar";
 import SideDrawer from "../Navigation/Sidedrawer/Sidedrawer";
 
@@ -35,7 +35,7 @@ class Layout extends Component {
             closed={this.SideDrawerClosedHandler}
             open={this.state.showSideDrawer}
           />
-          <main className={styles.mainSection}>{this.props.children}</main>
+          <main className={classes.mainSection}>{this.props.children}</main>
         </div>
       </Aux>
     );

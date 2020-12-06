@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import styles from "./Modal.module.css";
+import classes from "./Modal.module.css";
 import BackDrop from "../Backdrop/Backdrop";
 import Aux from "../../../hoc/Aux";
 
@@ -21,7 +21,7 @@ const Modal = (props) => {
     <Aux>
       <BackDrop show={props.show} backdropClicked={props.closeModal} />
       <div
-        className={styles.Modal}
+        className={classes.Modal}
         style={{
           zIndex: props.show ? "500" : "-500",
           opacity: props.show ? "1" : "0",

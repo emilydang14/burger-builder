@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Order.module.css";
+import classes from "./Order.module.css";
 const Order = (props) => {
   const ingredients = [];
   for (let ingredientName in props.ingredients) {
@@ -25,7 +25,7 @@ const Order = (props) => {
     );
   });
   return (
-    <div className={styles.Order}>
+    <div className={classes.Order}>
       <p>Ingredients: {ingredientsOutput}</p>
       <p>
         Price: <strong>€ {props.price}</strong>

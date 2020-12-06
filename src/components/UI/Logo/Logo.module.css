@@ -1,9 +1,10 @@
-.Logo {
+.Logo_container {
   padding: 8px;
   height: 100%;
   box-sizing: border-box;
+  background-color: aliceblue;
 }
 
-.Logo img {
+.Logo_container img {
   height: 100%;
 }

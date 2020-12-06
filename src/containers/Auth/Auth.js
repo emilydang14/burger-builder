@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Input from "../../components/UI/Input/Input";
 import Button from "../../components/UI/Button/Button";
-import styles from "./Auth.module.css";
+import classes from "./Auth.module.css";
 import * as actions from "../../store/actions/index";
 import { connect } from "react-redux";
 import Spinner from "../../components/UI/Spinner/Spinner";
@@ -115,7 +115,7 @@ class Auth extends Component {
         : (errorMessage = <p>{this.props.error.message}</p>);
     }
     return (
-      <div className={styles.Auth}>
+      <div className={classes.Auth}>
         {this.props.isAuthenticated && (
           <Redirect to={this.props.authRedirectPath} />
         )}
