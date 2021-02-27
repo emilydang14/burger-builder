@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# BURGER BUILDER
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
+This a very complete application to learn from head to toes about ReactJs. The application implementing many different concept in programming with ReactJs from the concept of seperate stateless component to stateful component, to the concept of using Redux in managing states as well as some implementation of using high order component. More than that, the React Router was also used in this project.
 
-## Available Scripts
+Another speciality of this project was the usage of Form generation based on different set-before-hand criteria. Avoid doing hard coding for many different form accross the application. 
 
-In the project directory, you can run:
+Check it out your self what it can do in the live demo version! 
 
-### `npm start`
+[Emily's Burger Builder Application](https://burger-builder-50dc8.web.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Technology used: 
+  - React Js: React Class
+  - React Router
+  - Firebase Realtime Database
+  - Firebase Hosting
+  - Google Authentication
+  - CSS Module //for styling
+  - High order components
+  - React DevTools
+  - Axios
 
-### `npm test`
+## How the application works?
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. You need to login first in order to place an order
+2. You can add ingredients to your burger and click place order, then provide the deliver information needed. 
 
-### `npm run build`
+=> All of the user data + order data then later on be saved on Firebase Database, if needed, can be fecthed easily. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Demo version online: [Emily's Burger Builder Application](https://burger-builder-50dc8.web.app/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img src="https://github.com/emilydang14/burger-builder/blob/master/demo.gif" width="600">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## How to start the application on your computer:
 
-### `npm run eject`
+1. Write `npm start` to run
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+2. If it shows error: `react-scripts: command not found`
+  - Run `npm install` : this to make sure all the dependencies were installed
+  - Run `npm start` to start the application
