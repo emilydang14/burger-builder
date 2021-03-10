@@ -9,6 +9,7 @@ Check it out your self what it can do in the live demo version!
 
 [Emily's Burger Builder Application](https://burger-builder-50dc8.web.app/)
 
+Notes: This is the learning project made with the guidance of Maximiliam on Udemy Course
 
 ## Technology used: 
   - React Js: React Class
